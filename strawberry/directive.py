@@ -6,7 +6,7 @@ from typing import Any, Callable, List, Optional, TypeVar
 
 from typing_extensions import Annotated
 
-from graphql import DirectiveLocation
+from graphql3 import DirectiveLocation
 
 from strawberry.arguments import StrawberryArgument
 from strawberry.field import StrawberryField

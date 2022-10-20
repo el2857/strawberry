@@ -1,6 +1,6 @@
 from typing import TYPE_CHECKING, Any, Dict, Tuple
 
-from graphql import DirectiveNode, GraphQLResolveInfo
+from graphql3 import DirectiveNode, GraphQLResolveInfo
 
 from strawberry.directive import StrawberryDirective
 from strawberry.extensions import Extension

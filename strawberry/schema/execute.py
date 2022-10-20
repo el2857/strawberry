@@ -12,7 +12,7 @@ from typing import (
     cast,
 )
 
-from graphql import (
+from graphql3 import (
     ExecutionContext as GraphQLExecutionContext,
     ExecutionResult as GraphQLExecutionResult,
     GraphQLError,
@@ -20,8 +20,8 @@ from graphql import (
     execute as original_execute,
     parse,
 )
-from graphql.language import DocumentNode
-from graphql.validation import ASTValidationRule, validate
+from graphql3.language import DocumentNode
+from graphql3.validation import ASTValidationRule, validate
 
 from strawberry.extensions import Extension
 from strawberry.extensions.runner import ExtensionsRunner

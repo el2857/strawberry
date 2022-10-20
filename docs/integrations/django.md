@@ -118,7 +118,7 @@ and the execution results.
 from strawberry.http import GraphQLHTTPResponse
 from strawberry.types import ExecutionResult
 
-from graphql.error.graphql_error import format_error as format_graphql_error
+from graphql3.error.graphql_error import format_error as format_graphql_error
 
 class MyGraphQLView(GraphQLView):
     def process_result(
@@ -240,7 +240,7 @@ and the execution results.
 from strawberry.http import GraphQLHTTPResponse
 from strawberry.types import ExecutionResult
 
-from graphql.error.graphql_error import format_error as format_graphql_error
+from graphql3.error.graphql_error import format_error as format_graphql_error
 
 class MyGraphQLView(AsyncGraphQLView):
     async def process_result(

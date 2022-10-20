@@ -3,7 +3,7 @@ import re
 from math import isfinite
 from typing import Any, Mapping, Optional, cast
 
-from graphql.language import (
+from graphql3.language import (
     BooleanValueNode,
     EnumValueNode,
     FloatValueNode,
@@ -16,8 +16,8 @@ from graphql.language import (
     StringValueNode,
     ValueNode,
 )
-from graphql.pyutils import Undefined, inspect, is_iterable
-from graphql.type import (
+from graphql3.pyutils import Undefined, inspect, is_iterable
+from graphql3.type import (
     GraphQLID,
     GraphQLInputObjectType,
     GraphQLInputType,

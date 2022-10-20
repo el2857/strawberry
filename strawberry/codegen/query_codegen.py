@@ -6,7 +6,7 @@ from typing import Callable, Iterable, List, Optional, Tuple, Type, Union, cast
 
 from typing_extensions import Literal, Protocol
 
-from graphql import (
+from graphql3 import (
     ArgumentNode,
     BooleanValueNode,
     DirectiveNode,

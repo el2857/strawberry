@@ -4,7 +4,7 @@ from typing import Any, Dict, List, Mapping, Optional
 
 from typing_extensions import TypedDict
 
-from graphql.error.graphql_error import format_error as format_graphql_error
+from graphql3.error.graphql_error import format_error as format_graphql_error
 
 from strawberry.exceptions import MissingQueryError
 from strawberry.types import ExecutionResult

@@ -1,6 +1,6 @@
 from typing import List, Union
 
-from graphql import GraphQLResolveInfo
+from graphql3 import GraphQLResolveInfo
 
 
 def is_introspection_key(key: Union[str, int]) -> bool:

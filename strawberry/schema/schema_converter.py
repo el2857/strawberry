@@ -15,7 +15,7 @@ from typing import (
     cast,
 )
 
-from graphql import (
+from graphql3 import (
     GraphQLArgument,
     GraphQLDirective,
     GraphQLEnumType,
@@ -36,7 +36,7 @@ from graphql import (
     Undefined,
     ValueNode,
 )
-from graphql.language.directive_locations import DirectiveLocation
+from graphql3.language.directive_locations import DirectiveLocation
 
 from strawberry.annotation import StrawberryAnnotation
 from strawberry.arguments import StrawberryArgument, convert_arguments

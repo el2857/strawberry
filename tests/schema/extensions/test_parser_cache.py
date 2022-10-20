@@ -2,7 +2,7 @@ from unittest.mock import patch
 
 import pytest
 
-from graphql import parse
+from graphql3 import parse
 
 import strawberry
 from strawberry.extensions import ParserCache

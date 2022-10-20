@@ -13,7 +13,7 @@ from typing import (
     overload,
 )
 
-from graphql import GraphQLScalarType
+from graphql3 import GraphQLScalarType
 
 from strawberry.type import StrawberryType
 

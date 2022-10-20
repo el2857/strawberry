@@ -15,7 +15,7 @@ See [graphql.validation.rules.custom](https://github.com/graphql-python/graphql-
 ```python
 import strawberry
 from strawberry.extensions import AddValidationRules
-from graphql import ValidationRule
+from graphql3 import ValidationRule
 
 class MyCustomRule(ValidationRule):
     ...
@@ -46,7 +46,7 @@ List of GraphQL validation rules.
 ```python
 import strawberry
 from strawberry.extensions import AddValidationRules
-from graphql import ValidationRule
+from graphql3 import ValidationRule
 
 class CustomRule(ValidationRule):
     def enter_field(self, node, *args) -> None:
@@ -73,7 +73,7 @@ assert str(result.errors[0]) == "Can't query field 'example'"
 ```python
 import strawberry
 from strawberry.extensions import AddValidationRules
-from graphql.validation import NoDeprecatedCustomRule
+from graphql3.validation import NoDeprecatedCustomRule
 
 schema = strawberry.Schema(
     Query,
@@ -91,7 +91,7 @@ schema = strawberry.Schema(
 ```python
 import strawberry
 from strawberry.extensions import AddValidationRules
-from graphql.validation import NoSchemaIntrospectionCustomRule
+from graphql3.validation import NoSchemaIntrospectionCustomRule
 
 schema = strawberry.Schema(
     Query,

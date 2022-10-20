@@ -16,7 +16,7 @@ from typing import (
     overload,
 )
 
-from graphql import (
+from graphql3 import (
     GraphQLArgument,
     GraphQLEnumType,
     GraphQLEnumValue,
@@ -24,8 +24,8 @@ from graphql import (
     GraphQLUnionType,
     is_union_type,
 )
-from graphql.language.printer import print_ast
-from graphql.type import (
+from graphql3.language.printer import print_ast
+from graphql3.type import (
     is_enum_type,
     is_input_type,
     is_interface_type,
@@ -33,8 +33,8 @@ from graphql.type import (
     is_scalar_type,
     is_specified_directive,
 )
-from graphql.type.directives import GraphQLDirective
-from graphql.utilities.print_schema import (
+from graphql3.type.directives import GraphQLDirective
+from graphql3.utilities.print_schema import (
     is_defined_type,
     print_block,
     print_deprecated,

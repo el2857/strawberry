@@ -4,7 +4,7 @@ import pytest
 
 import dateutil.tz
 
-from graphql import GraphQLError
+from graphql3 import GraphQLError
 
 import strawberry
 

@@ -1,6 +1,6 @@
 from typing import List, Type
 
-from graphql import ASTValidationRule
+from graphql3 import ASTValidationRule
 
 from strawberry.extensions.base_extension import Extension
 
@@ -13,7 +13,7 @@ class AddValidationRules(Extension):
 
     >>> import strawberry
     >>> from strawberry.extensions import AddValidationRules
-    >>> from graphql import ValidationRule, GraphQLError
+    >>> from graphql3 import ValidationRule, GraphQLError
     >>>
     >>> class MyCustomRule(ValidationRule):
     ...     def enter_field(self, node, *args) -> None:

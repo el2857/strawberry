@@ -2,7 +2,7 @@ from typing import Any, Dict, List, Optional
 
 import pytest
 
-from graphql import (
+from graphql3 import (
     ExecutionContext as GraphQLExecutionContext,
     ExecutionResult,
     GraphQLError,

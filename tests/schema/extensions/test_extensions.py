@@ -4,7 +4,7 @@ from unittest.mock import patch
 
 import pytest
 
-from graphql import (
+from graphql3 import (
     ExecutionResult as GraphQLExecutionResult,
     GraphQLError,
     execute as original_execute,

@@ -4,7 +4,7 @@ from typing import Any, Optional
 
 from typing_extensions import Final
 
-from graphql.error import GraphQLError
+from graphql3.error import GraphQLError
 
 from strawberry.types import ExecutionContext
 

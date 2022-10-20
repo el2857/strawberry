@@ -1,7 +1,7 @@
 from dataclasses import asdict, dataclass
 from typing import Any, Dict, List, Optional
 
-from graphql import GraphQLFormattedError
+from graphql3 import GraphQLFormattedError
 
 from strawberry.unset import UNSET
 

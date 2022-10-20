@@ -1,7 +1,7 @@
 import inspect
 from typing import Any, Dict, List, Optional, Type, Union
 
-from graphql import MiddlewareManager
+from graphql3 import MiddlewareManager
 
 from strawberry.extensions.context import (
     ExecutingContextManager,

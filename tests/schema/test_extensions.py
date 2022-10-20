@@ -1,7 +1,7 @@
 from enum import Enum, auto
 from typing import cast
 
-from graphql import (
+from graphql3 import (
     DirectiveLocation,
     GraphQLEnumType,
     GraphQLInputType,

@@ -1,6 +1,6 @@
 from typing import Optional, cast
 
-from graphql.language import DocumentNode, OperationDefinitionNode
+from graphql3.language import DocumentNode, OperationDefinitionNode
 
 from strawberry.types.graphql import OperationType
 

@@ -2,7 +2,7 @@ import pytest
 
 from freezegun import freeze_time
 
-from graphql.utilities import get_introspection_query
+from graphql3.utilities import get_introspection_query
 
 import strawberry
 from strawberry.extensions.tracing.apollo import (

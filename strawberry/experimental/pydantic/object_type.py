@@ -18,7 +18,7 @@ from typing import (
 
 from pydantic.fields import ModelField
 
-from graphql import GraphQLResolveInfo
+from graphql3 import GraphQLResolveInfo
 
 from strawberry.auto import StrawberryAuto
 from strawberry.experimental.pydantic.conversion import (

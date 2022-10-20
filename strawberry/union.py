@@ -16,7 +16,7 @@ from typing import (
     cast,
 )
 
-from graphql import (
+from graphql3 import (
     GraphQLAbstractType,
     GraphQLNamedType,
     GraphQLResolveInfo,

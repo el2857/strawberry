@@ -5,7 +5,7 @@ from unittest.mock import patch
 
 import pytest
 
-from graphql import GraphQLError, ValidationRule, validate
+from graphql3 import GraphQLError, ValidationRule, validate
 
 import strawberry
 from strawberry.extensions import AddValidationRules, DisableValidation

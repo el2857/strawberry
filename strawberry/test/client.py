@@ -5,7 +5,7 @@ from typing import Any, Coroutine, Dict, List, Mapping, Optional, Union
 
 from typing_extensions import Literal, TypedDict
 
-from graphql import GraphQLFormattedError
+from graphql3 import GraphQLFormattedError
 
 
 @dataclass

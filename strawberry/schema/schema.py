@@ -1,7 +1,7 @@
 from functools import lru_cache
 from typing import Any, Dict, Iterable, List, Optional, Type, Union, cast
 
-from graphql import (
+from graphql3 import (
     ExecutionContext as GraphQLExecutionContext,
     GraphQLNamedType,
     GraphQLNonNull,
@@ -10,8 +10,8 @@ from graphql import (
     parse,
     validate_schema,
 )
-from graphql.subscription import subscribe
-from graphql.type.directives import specified_directives
+from graphql3.subscription import subscribe
+from graphql3.type.directives import specified_directives
 
 from strawberry.custom_scalar import ScalarDefinition, ScalarWrapper
 from strawberry.directive import StrawberryDirective

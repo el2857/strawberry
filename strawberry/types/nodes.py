@@ -12,8 +12,8 @@ Note Python dicts maintain ordering (for all supported versions).
 import dataclasses
 from typing import Any, Collection, Dict, Iterable, List, Optional, Union
 
-from graphql import GraphQLResolveInfo
-from graphql.language import (
+from graphql3 import GraphQLResolveInfo
+from graphql3.language import (
     ArgumentNode as GQLArgumentNode,
     DirectiveNode as GQLDirectiveNode,
     FieldNode as GQLFieldNode,

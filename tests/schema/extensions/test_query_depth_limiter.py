@@ -3,7 +3,7 @@ from typing import List, Optional
 
 import pytest
 
-from graphql import get_introspection_query, parse, specified_rules, validate
+from graphql3 import get_introspection_query, parse, specified_rules, validate
 
 import strawberry
 from strawberry.extensions import QueryDepthLimiter

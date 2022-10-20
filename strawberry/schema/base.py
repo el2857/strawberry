@@ -4,7 +4,7 @@ from typing import Any, Dict, Iterable, List, Optional, Type, Union
 
 from typing_extensions import Protocol
 
-from graphql import GraphQLError
+from graphql3 import GraphQLError
 
 from strawberry.custom_scalar import ScalarDefinition
 from strawberry.directive import StrawberryDirective

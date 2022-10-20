@@ -3,7 +3,7 @@ from __future__ import annotations
 from enum import Enum
 from typing import List, Set, Union
 
-from graphql import GraphQLInputObjectType, GraphQLObjectType
+from graphql3 import GraphQLInputObjectType, GraphQLObjectType
 
 from strawberry.type import StrawberryType
 

@@ -28,8 +28,8 @@
 import re
 from typing import Callable, Dict, Iterable, List, Optional, Type, Union
 
-from graphql import GraphQLError
-from graphql.language import (
+from graphql3 import GraphQLError
+from graphql3.language import (
     DefinitionNode,
     FieldNode,
     FragmentDefinitionNode,
@@ -38,7 +38,7 @@ from graphql.language import (
     Node,
     OperationDefinitionNode,
 )
-from graphql.validation import ValidationContext, ValidationRule
+from graphql3.validation import ValidationContext, ValidationRule
 
 from strawberry.extensions import AddValidationRules
 from strawberry.extensions.utils import is_introspection_key

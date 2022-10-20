@@ -1,6 +1,6 @@
 from typing import Any, Dict
 
-from graphql import GraphQLResolveInfo
+from graphql3 import GraphQLResolveInfo
 
 from strawberry.types import ExecutionContext
 from strawberry.utils.await_maybe import AwaitableOrValue

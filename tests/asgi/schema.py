@@ -3,7 +3,7 @@ import typing
 from enum import Enum
 from typing import Optional
 
-from graphql import GraphQLError
+from graphql3 import GraphQLError
 
 import strawberry
 from strawberry.file_uploads import Upload

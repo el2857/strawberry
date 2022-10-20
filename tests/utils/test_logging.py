@@ -1,6 +1,6 @@
 import logging
 
-from graphql.error import GraphQLError
+from graphql3.error import GraphQLError
 
 from strawberry.utils.logging import StrawberryLogger
 

@@ -1,6 +1,6 @@
 from typing import Callable
 
-from graphql import GraphQLResolveInfo
+from graphql3 import GraphQLResolveInfo
 
 from strawberry.extensions.utils import is_introspection_field
 from strawberry.resolvers import is_default_resolver

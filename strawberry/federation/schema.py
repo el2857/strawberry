@@ -3,7 +3,7 @@ from copy import copy
 from itertools import chain
 from typing import Any, Dict, Iterable, List, Optional, Type, Union, cast
 
-from graphql import (
+from graphql3 import (
     ExecutionContext as GraphQLExecutionContext,
     GraphQLField,
     GraphQLInterfaceType,
@@ -13,7 +13,7 @@ from graphql import (
     GraphQLScalarType,
     GraphQLUnionType,
 )
-from graphql.type.definition import GraphQLArgument
+from graphql3.type.definition import GraphQLArgument
 
 from strawberry.custom_scalar import ScalarDefinition, ScalarWrapper
 from strawberry.enum import EnumDefinition

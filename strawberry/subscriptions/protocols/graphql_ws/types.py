@@ -2,7 +2,7 @@ from typing import Any, Dict, List, Optional, Union
 
 from typing_extensions import TypedDict
 
-from graphql import GraphQLFormattedError
+from graphql3 import GraphQLFormattedError
 
 
 ConnectionInitPayload = Dict[str, Any]

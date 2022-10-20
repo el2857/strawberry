@@ -3,7 +3,7 @@ import typing
 from enum import Enum
 from typing import Any, Optional
 
-from graphql import GraphQLError
+from graphql3 import GraphQLError
 
 import strawberry
 from strawberry.channels.context import StrawberryChannelsContext
