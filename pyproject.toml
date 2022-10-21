@@ -164,7 +164,3 @@ reportMissingImports = true
 reportMissingTypeStubs = false
 pythonVersion = "3.7"
 stubPath = ""
-[build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
-
