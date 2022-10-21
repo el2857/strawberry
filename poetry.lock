@@ -178,25 +178,6 @@ python-versions = ">=3.6.0"
 version = "1.0.2"
 
 [[package]]
-category = "main"
-description = ""
-develop = false
-name = "benchling-graphql-core"
-optional = false
-python-versions = "^3.6"
-version = "3.2.1"
-
-[package.dependencies]
-[package.dependencies.typing-extensions]
-python = "<3.8"
-version = "^4.1"
-
-[package.source]
-reference = ""
-type = "directory"
-url = "../graphql-core"
-
-[[package]]
 category = "dev"
 description = "The uncompromising code formatter."
 name = "black"
@@ -634,6 +615,14 @@ name = "frozenlist"
 optional = false
 python-versions = ">=3.7"
 version = "1.3.1"
+
+[[package]]
+category = "main"
+description = "GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL."
+name = "benchling-graphql-core"
+optional = false
+python-versions = ">=3.6,<4"
+version = "3.2.1"
 
 [[package]]
 category = "main"
@@ -1828,7 +1817,7 @@ pydantic = ["pydantic"]
 sanic = ["sanic"]
 
 [metadata]
-content-hash = "059ef99657a3bf7cb3a3dcffdf351a58295b6e81d09c4d6d302d1846799ab070"
+content-hash = "c876e1bc55ceec5fc76afb6991f054885087e7fa097caa4f6a4348caec95cf5e"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1844,7 +1833,6 @@ attrs = []
 autobahn = []
 automat = []
 "backports.cached-property" = []
-benchling-graphql-core = []
 black = []
 blessed = []
 botocore = []
@@ -1875,6 +1863,7 @@ flake8-isort = []
 flask = []
 freezegun = []
 frozenlist = []
+benchling-graphql-core = []
 h11 = []
 httpcore = []
 httptools = []
