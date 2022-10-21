@@ -178,6 +178,25 @@ python-versions = ">=3.6.0"
 version = "1.0.2"
 
 [[package]]
+category = "main"
+description = ""
+develop = false
+name = "benchling-graphql-core"
+optional = false
+python-versions = "^3.6"
+version = "3.2.1"
+
+[package.dependencies]
+[package.dependencies.typing-extensions]
+python = "<3.8"
+version = "^4.1"
+
+[package.source]
+reference = ""
+type = "directory"
+url = "../graphql-core"
+
+[[package]]
 category = "dev"
 description = "The uncompromising code formatter."
 name = "black"
@@ -228,7 +247,7 @@ description = "Low-level, data-driven core of boto 3."
 name = "botocore"
 optional = false
 python-versions = ">= 3.7"
-version = "1.27.94"
+version = "1.27.95"
 
 [package.dependencies]
 jmespath = ">=0.7.1,<2.0.0"
@@ -460,23 +479,6 @@ idna = ["idna (>=2.1,<4.0)"]
 trio = ["trio (>=0.14,<0.20)"]
 wmi = ["wmi (>=1.5.1,<2.0.0)"]
 
-[[package]]
-category = "main"
-description = ""
-name = "dtkav-graphql-core"
-optional = false
-python-versions = "^3.6"
-version = "3.2.1"
-
-[package.dependencies]
-[package.dependencies.typing-extensions]
-python = "<3.8"
-version = "^4.1"
-
-[package.source]
-reference = "566f66417fd68572581134953aa9ec4c5da026cf"
-type = "git"
-url = "https://github.com/dtkav/graphql-core.git"
 [[package]]
 category = "dev"
 description = "A robust email address syntax and deliverability validation library."
@@ -1749,11 +1751,14 @@ category = "main"
 description = "A built-package format for Python"
 name = "wheel"
 optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
-version = "0.37.1"
+python-versions = ">=3.7"
+version = "0.38.0"
+
+[package.dependencies]
+setuptools = ">=57.0.0"
 
 [package.extras]
-test = ["pytest (>=3.0.0)", "pytest-cov"]
+test = ["pytest (>=3.0.0)"]
 
 [[package]]
 category = "main"
@@ -1823,7 +1828,7 @@ pydantic = ["pydantic"]
 sanic = ["sanic"]
 
 [metadata]
-content-hash = "23b7929aefa4efbb524855916bcbe70e72442c8213279882233df59bca456a41"
+content-hash = "059ef99657a3bf7cb3a3dcffdf351a58295b6e81d09c4d6d302d1846799ab070"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1839,6 +1844,7 @@ attrs = []
 autobahn = []
 automat = []
 "backports.cached-property" = []
+benchling-graphql-core = []
 black = []
 blessed = []
 botocore = []
@@ -1858,7 +1864,6 @@ decorator = []
 deprecated = []
 django = []
 dnspython = []
-dtkav-graphql-core = []
 email-validator = []
 eradicate = []
 fastapi = []

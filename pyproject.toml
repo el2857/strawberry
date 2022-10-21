@@ -30,7 +30,7 @@ include = ["strawberry/py.typed"]
 [tool.poetry.dependencies]
 python = "^3.7"
 
-benchling-graphql-core = "3.2.1"
+benchling-graphql-core = { path = "../graphql-core", develop = false}
 typing_extensions = ">=3.7.4,<5.0.0"
 python-dateutil = "^2.7.0"
 "backports.cached-property" = {version = "^1.0.2", python = "<3.8"}
